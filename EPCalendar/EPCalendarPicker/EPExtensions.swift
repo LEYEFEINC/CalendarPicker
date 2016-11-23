@@ -139,7 +139,7 @@ extension Date {
     
     func monthNameFull() -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MMMM YYYY"
+        dateFormatter.dateFormat = "MMMM yyyy"
         return dateFormatter.string(from: self)
     }
     
